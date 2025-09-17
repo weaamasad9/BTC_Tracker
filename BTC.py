@@ -14,8 +14,8 @@ import email.message
 URL = 'https://api.coinbase.com/v2/prices/BTC-USD/spot'
 FILE = 'BTC_price.json'
 GRAPH_FILE = 'BTC_graph.png'
-EMAIL = 'weaamasad7@gmail.com' # The src email  
-PASSWORD = 'agsv suzq pyhb doip' # an passcode app key to login with    
+EMAIL = 'optional' # The src email  
+PASSWORD = 'optional' # an passcode app key to login with    
 DST_EMAIL = 'weaamasad9@gmail.com' #The dst email
 LOGGER = "./BTC_logger.log"
 
@@ -160,3 +160,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
